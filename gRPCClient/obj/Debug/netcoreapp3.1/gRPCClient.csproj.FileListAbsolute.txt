@@ -397,4 +397,8 @@ C:\Projetos\gRPC_POC\gRPCClient\obj\Debug\netcoreapp3.1\gRPCClient.Views.pdb
 C:\Projetos\gRPC_POC\gRPCClient\obj\Debug\netcoreapp3.1\gRPCClient.dll
 C:\Projetos\gRPC_POC\gRPCClient\obj\Debug\netcoreapp3.1\gRPCClient.pdb
 C:\Projetos\gRPC_POC\gRPCClient\obj\Debug\netcoreapp3.1\gRPCClient.genruntimeconfig.cache
-C:\Projetos\gRPC_POC\gRPCClient\obj\Debug\netcoreapp3.1\Razor\Views\Count\Index.cshtml.g.cs
+C:\Projetos\gRPC_POC\gRPCClient\bin\Debug\netcoreapp3.1\RESTCommon.dll
+C:\Projetos\gRPC_POC\gRPCClient\bin\Debug\netcoreapp3.1\RESTCommon.pdb
+C:\Projetos\gRPC_POC\gRPCClient\obj\Debug\netcoreapp3.1\gRPCClient.csprojAssemblyReference.cache
+C:\Projetos\gRPC_POC\gRPCClient\obj\Debug\netcoreapp3.1\Razor\Views\Count\IndexgRPC.cshtml.g.cs
+C:\Projetos\gRPC_POC\gRPCClient\obj\Debug\netcoreapp3.1\Razor\Views\Count\IndexREST.cshtml.g.cs
