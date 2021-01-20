@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPCService", "gRPCService\gRPCService.csproj", "{55BA8AB9-7C54-4C2A-A9F0-94F439CDEF16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPCClient", "gRPCClient\gRPCClient.csproj", "{1F5B3A05-E579-473C-9C99-D75265F097F3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebClient", "gRPCClient\WebClient.csproj", "{1F5B3A05-E579-473C-9C99-D75265F097F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTService", "RESTService\RESTService.csproj", "{E829D452-A5FE-4A74-B5CA-D60210AF9E86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTCommon", "RESTCommon\RESTCommon.csproj", "{5073808B-7E2A-4BF4-9372-453001B1D201}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{1F5B3A05-E579-473C-9C99-D75265F097F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F5B3A05-E579-473C-9C99-D75265F097F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F5B3A05-E579-473C-9C99-D75265F097F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E829D452-A5FE-4A74-B5CA-D60210AF9E86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E829D452-A5FE-4A74-B5CA-D60210AF9E86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E829D452-A5FE-4A74-B5CA-D60210AF9E86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E829D452-A5FE-4A74-B5CA-D60210AF9E86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5073808B-7E2A-4BF4-9372-453001B1D201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5073808B-7E2A-4BF4-9372-453001B1D201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5073808B-7E2A-4BF4-9372-453001B1D201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5073808B-7E2A-4BF4-9372-453001B1D201}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
