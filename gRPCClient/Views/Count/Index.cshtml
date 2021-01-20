@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <button id="btnRefresh" type="button" class="btn btn-primary mb-2">Refresh</button>
+    <br />
+    <div id="divCount"></div>
+</body>
+</html>
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            $("#btnRefresh").click(function () {
+                Refresh();
+            });
+
+            function Refresh() {
+                $.ajax({
+                    type: 'GET'
+                    , url: "@Url.Action("Count", "Count")"
+                    , contentType: 'application/x-www-form-urlencoded'
+                    , dataType: 'json'
+                    //, data:
+                    , async: false
+                    , success: function (oDados, status) {
+                        $("#divCount").append("Message: " + oDados.message + " Request time: " + oDados.requestTime + "<br>");
+                    }
+                    , error: function (xmlHttpRequest, status, err) {
+                        return Error;
+                    }
+                });
+            }
+        });
+    </script>
+}

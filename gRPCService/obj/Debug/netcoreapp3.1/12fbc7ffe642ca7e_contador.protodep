@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.1/Contador.cs \
+obj\Debug\netcoreapp3.1/ContadorGrpc.cs: Protos/contador.proto

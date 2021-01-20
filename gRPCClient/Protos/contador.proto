@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option csharp_namespace = "gRPCService";
+
+package greet;
+
+//Service definition.
+service Contador {
+  // Request a count
+  rpc Count (ContadorRequest) returns (ContadorReply);
+}
+
+// The request message 
+message ContadorRequest {
+  string name = 1;
+}
+
+// The response message
+message ContadorReply {
+  string message = 1;
+  string requestTime = 2;
+}
